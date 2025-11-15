@@ -1,14 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
   "framework": "nextjs",
   "installCommand": "pnpm install --frozen-lockfile",
   "buildCommand": "npx nx run frontend-mcp:build:production --skip-nx-cache",
   "outputDirectory": "dist/apps/frontend-mcp",
-  "functions": {
-    "apps/frontend-mcp/app/api/**/*.ts": {
-      "runtime": "nodejs18.x",
-      "maxDuration": 30
-    }
-  },
   "regions": ["bom1"]
 }
