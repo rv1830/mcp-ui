@@ -1,22 +1,14 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "apps/frontend-mcp/package.json",
-      "use": "@vercel/next",
-      "config": {
-        "distDir": "dist/apps/frontend-mcp/.next"
-      }
-    }
-  ],
-  "outputDirectory": "dist/apps/frontend-mcp",
-  "functions": {
-    "api/**/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  },
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
   "installCommand": "pnpm install --frozen-lockfile",
   "buildCommand": "npx nx run frontend-mcp:build:production --skip-nx-cache",
-  "framework": "nextjs",
+  "outputDirectory": "dist/apps/frontend-mcp",
+  "functions": {
+    "apps/frontend-mcp/app/api/**/*.ts": {
+      "runtime": "nodejs18.x",
+      "maxDuration": 30
+    }
+  },
   "regions": ["bom1"]
 }
