@@ -1,0 +1,15 @@
+{
+  "name": "@mcp-agent/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@nx/js": "22.0.3",
+    "@nx/next": "^22.0.3",
+    "@nx/react": "^22.0.3",
+    "@nx/web": "^22.0.3",
+    "@nx/workspace": "22.0.3",
+    "nx": "22.0.3"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "run": {
+    "command": "nx serve frontend-mcp",
+    "startTime": "2025-11-15T20:57:02.361Z",
+    "endTime": "2025-11-15T20:59:13.766Z",
+    "inner": false
+  },
+  "tasks": []
+}

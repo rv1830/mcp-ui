@@ -1,0 +1,574 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.0.3",
+  "pathMappings": {
+    "@frontend-mcp/*": [
+      "apps/frontend-mcp/*"
+    ],
+    "@/*": [
+      "apps/frontend-mcp/*"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "package.json",
+        "hash": "2492796506500173070"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "3921980566715947958"
+      },
+      {
+        "file": "nx.json",
+        "hash": "7984885312398650396"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "8337845444882085715"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "3833545590435012078"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "18435103667633526488"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "678236382058485079"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "README.md",
+        "hash": "11128299686032973344"
+      }
+    ],
+    "projectFileMap": {
+      "frontend-mcp": [
+        {
+          "file": "apps/frontend-mcp/.gitignore",
+          "hash": "2839488429184482053"
+        },
+        {
+          "file": "apps/frontend-mcp/app/globals.css",
+          "hash": "3915889186423695369"
+        },
+        {
+          "file": "apps/frontend-mcp/app/layout.tsx",
+          "hash": "11415417366858771935",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/app/page.tsx",
+          "hash": "15949806269858854595",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components.json",
+          "hash": "8635398981797680915"
+        },
+        {
+          "file": "apps/frontend-mcp/components/header.tsx",
+          "hash": "3373584206643709881"
+        },
+        {
+          "file": "apps/frontend-mcp/components/query-history.tsx",
+          "hash": "1874102838237090425"
+        },
+        {
+          "file": "apps/frontend-mcp/components/query-input.tsx",
+          "hash": "9862560143089227626",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/result-table.tsx",
+          "hash": "7566615448036032852"
+        },
+        {
+          "file": "apps/frontend-mcp/components/theme-provider.tsx",
+          "hash": "13432393501997083559",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/accordion.tsx",
+          "hash": "17294117445121931330",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/alert-dialog.tsx",
+          "hash": "12777806340048991344",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/alert.tsx",
+          "hash": "6766249831246235785",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/aspect-ratio.tsx",
+          "hash": "3834836800920212141"
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/avatar.tsx",
+          "hash": "4928034225561163114",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/badge.tsx",
+          "hash": "9208843835092731454",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/breadcrumb.tsx",
+          "hash": "3488955365337469265",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/button-group.tsx",
+          "hash": "6850603298383897077"
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/button.tsx",
+          "hash": "17000952771119695487",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/calendar.tsx",
+          "hash": "185272232603783288",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/card.tsx",
+          "hash": "12317150996761718609",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/carousel.tsx",
+          "hash": "6191925553131453057",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/chart.tsx",
+          "hash": "5470937478742147780",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/checkbox.tsx",
+          "hash": "15826718242957840692",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/collapsible.tsx",
+          "hash": "12861751191180410396"
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/command.tsx",
+          "hash": "4353132705654036464",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/context-menu.tsx",
+          "hash": "5871710571865732951",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/dialog.tsx",
+          "hash": "5043692824102591566",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/drawer.tsx",
+          "hash": "17758827922938767206",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/dropdown-menu.tsx",
+          "hash": "3415286144485329752",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/empty.tsx",
+          "hash": "5602150015006887355"
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/field.tsx",
+          "hash": "4558397426807505088",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/form.tsx",
+          "hash": "10126491933129496802",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/hover-card.tsx",
+          "hash": "13901817315415834228",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/input-group.tsx",
+          "hash": "2268030610249437813"
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/input-otp.tsx",
+          "hash": "8834136308632301608",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/input.tsx",
+          "hash": "9340367444990435205",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/item.tsx",
+          "hash": "6485607340615866547",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/kbd.tsx",
+          "hash": "11189086523951554885"
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/label.tsx",
+          "hash": "10961795987971487558",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/menubar.tsx",
+          "hash": "10834740133352317774",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/navigation-menu.tsx",
+          "hash": "2017458271653521987",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/pagination.tsx",
+          "hash": "6093101582426243346",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/popover.tsx",
+          "hash": "13011709583310770220",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/progress.tsx",
+          "hash": "4214518934983629548",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/radio-group.tsx",
+          "hash": "16299117742021910330",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/resizable.tsx",
+          "hash": "8568048083216128835",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/scroll-area.tsx",
+          "hash": "11529699967677956366",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/select.tsx",
+          "hash": "3003485107284681018",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/separator.tsx",
+          "hash": "13075786923081002946",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/sheet.tsx",
+          "hash": "8126933208788914650",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/sidebar.tsx",
+          "hash": "8353422113578016819",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/skeleton.tsx",
+          "hash": "914188420360373664"
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/slider.tsx",
+          "hash": "7909263008945240571",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/sonner.tsx",
+          "hash": "3764367669103602715"
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/spinner.tsx",
+          "hash": "6347281582428829029"
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/switch.tsx",
+          "hash": "5284077767489797998",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/table.tsx",
+          "hash": "16590875750647871234",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/tabs.tsx",
+          "hash": "12830284847032989196",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/textarea.tsx",
+          "hash": "666175064337688111",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/toast.tsx",
+          "hash": "2183855509245288862",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/toaster.tsx",
+          "hash": "9474952467235200382"
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/toggle-group.tsx",
+          "hash": "6069319567869917956",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/toggle.tsx",
+          "hash": "12434636074809407334",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/tooltip.tsx",
+          "hash": "15507826893308914935",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/use-mobile.tsx",
+          "hash": "11808312049290393370",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/components/ui/use-toast.ts",
+          "hash": "12681799883772751080",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/hooks/use-mobile.ts",
+          "hash": "11808312049290393370",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/hooks/use-toast.ts",
+          "hash": "12681799883772751080",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/lib/utils.ts",
+          "hash": "9541062503082763861"
+        },
+        {
+          "file": "apps/frontend-mcp/next.config.mjs",
+          "hash": "2079717348103346707"
+        },
+        {
+          "file": "apps/frontend-mcp/package-lock.json",
+          "hash": "17830071128857914674"
+        },
+        {
+          "file": "apps/frontend-mcp/package.json",
+          "hash": "17686561044538705827",
+          "deps": [
+            "npm:@types/node",
+            "npm:postcss@8.5.6",
+            "npm:typescript",
+            "npm:autoprefixer",
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend-mcp/pnpm-lock.yaml",
+          "hash": "14417231529200795861"
+        },
+        {
+          "file": "apps/frontend-mcp/postcss.config.mjs",
+          "hash": "10220514512944190252"
+        },
+        {
+          "file": "apps/frontend-mcp/project.json",
+          "hash": "13464477977239385011"
+        },
+        {
+          "file": "apps/frontend-mcp/public/apple-icon.png",
+          "hash": "13835920650391744415"
+        },
+        {
+          "file": "apps/frontend-mcp/public/icon-dark-32x32.png",
+          "hash": "13589140278774312634"
+        },
+        {
+          "file": "apps/frontend-mcp/public/icon-light-32x32.png",
+          "hash": "5039890013555802910"
+        },
+        {
+          "file": "apps/frontend-mcp/public/icon.svg",
+          "hash": "7570583243196233047"
+        },
+        {
+          "file": "apps/frontend-mcp/public/placeholder-logo.png",
+          "hash": "11980608477649404665"
+        },
+        {
+          "file": "apps/frontend-mcp/public/placeholder-logo.svg",
+          "hash": "16087407587954228261"
+        },
+        {
+          "file": "apps/frontend-mcp/public/placeholder-user.jpg",
+          "hash": "1791361555052276298"
+        },
+        {
+          "file": "apps/frontend-mcp/public/placeholder.jpg",
+          "hash": "17969422676179785816"
+        },
+        {
+          "file": "apps/frontend-mcp/public/placeholder.svg",
+          "hash": "8334994000532407949"
+        },
+        {
+          "file": "apps/frontend-mcp/styles/globals.css",
+          "hash": "8925968361875319522"
+        },
+        {
+          "file": "apps/frontend-mcp/tsconfig.json",
+          "hash": "9378047783915065986"
+        }
+      ]
+    }
+  },
+  "externalNodesHash": "17522179993113513213"
+}
