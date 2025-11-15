@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "apps/frontend-mcp/package.json",
+      "use": "@vercel/next",
+      "config": {
+        "distDir": "dist/apps/frontend-mcp/.next"
+      }
+    }
+  ],
+  "outputDirectory": "dist/apps/frontend-mcp",
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "npx nx run frontend-mcp:build:production --skip-nx-cache",
+  "framework": "nextjs",
+  "regions": ["bom1"]
+}
